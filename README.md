@@ -1,14 +1,20 @@
 # 1.Experimental verification of Signal sampling using various types
+
 # Aim
+
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
+
 # Tools required
+
     Google Colab
     Python
     NumPy Library
     Matplotlib Library
     Internet Connection
     Computer / Laptop / Mobile
+	
 # Theory
+
 Introduction
 
 Sampling is the process of converting a continuous-time signal into a discrete-time signal by taking its values at uniform time intervals. It is a fundamental step in digital signal processing and communication systems.
