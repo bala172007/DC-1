@@ -38,29 +38,24 @@ flat_top = np.zeros_like(t)
 for i in range(len(ts)-1):
     idx = np.where((t >= ts[i]) & (t < ts[i+1]))
     flat_top[idx] = xs[i]
-
 # Plotting
 plt.figure(figsize=(12,8))
-
 # Original signal
 plt.subplot(4,1,1)
 plt.plot(t, x)
 plt.title("Original Analog Signal")
 plt.grid()
-
 # Ideal Sampling
 plt.subplot(4,1,2)
 plt.stem(ts, xs, basefmt=" ")
 plt.title("Ideal Sampling")
 plt.grid()
-
 # Natural Sampling (approximated)
 plt.subplot(4,1,3)
 plt.plot(t, x)
 plt.stem(ts, xs, linefmt='r', markerfmt='ro', basefmt=" ")
 plt.title("Natural Sampling")
 plt.grid()
-
 # Flat-top Sampling
 plt.subplot(4,1,4)
 plt.plot(t, flat_top)
@@ -73,5 +68,7 @@ plt.show()
 # Output Waveform
 
 <img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/7b25e43a-0a76-4f81-b49c-916e4cf0d3b9" />
+
 # Results
+
 Therefor a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling is excecuted.
