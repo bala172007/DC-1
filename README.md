@@ -9,7 +9,7 @@ Write a simple Python program for the construction and reconstruction of ideal, 
     Internet Connection
     Computer / Laptop / Mobile
 # Theory
-🔹 Introduction
+Introduction
 
 Sampling is the process of converting a continuous-time signal into a discrete-time signal by taking its values at uniform time intervals. It is a fundamental step in digital signal processing and communication systems.
 
