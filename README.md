@@ -8,7 +8,6 @@ Write a simple Python program for the construction and reconstruction of ideal, 
     Matplotlib Library
     Internet Connection
     Computer / Laptop / Mobile
-
 # Theory
 🔹 Introduction
 
@@ -74,7 +73,5 @@ plt.show()
 # Output Waveform
 
 <img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/7b25e43a-0a76-4f81-b49c-916e4cf0d3b9" />
-
-
 # Results
 Therefor a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling is excecuted.
