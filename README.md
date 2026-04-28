@@ -22,7 +22,10 @@ Sampling is the process of converting a continuous-time signal into a discrete-t
 According to the Nyquist Theorem, a signal can be perfectly reconstructed from its samples if the sampling frequency fs is at least twice the maximum frequency fm present in the signal:
 fs ≥ 2fm..
 	​This minimum sampling rate is called the Nyquist rate. If this condition is not satisfied, aliasing occurs, leading to distortion.
+
+
 # Program
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
@@ -56,12 +59,15 @@ plt.subplot(4,1,2)
 plt.stem(ts, xs, basefmt=" ")
 plt.title("Ideal Sampling")
 plt.grid()
+
 # Natural Sampling (approximated)
 plt.subplot(4,1,3)
 plt.plot(t, x)
 plt.stem(ts, xs, linefmt='r', markerfmt='ro', basefmt=" ")
 plt.title("Natural Sampling")
 plt.grid()
+
+
 # Flat-top Sampling
 plt.subplot(4,1,4)
 plt.plot(t, flat_top)
@@ -73,7 +79,9 @@ plt.show()
 ```
 # Output Waveform
 
+
 <img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/7b25e43a-0a76-4f81-b49c-916e4cf0d3b9" />
+
 
 # Results
 
